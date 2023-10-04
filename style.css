@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ; */
+    font-family: 'League Spartan', sans-serif;
+    overflow-x: hidden;
+}
+
+
+span{
+    color: hsl(333, 80%, 67%);
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.img-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.img-bottom{
+    margin-left: -18%;
+    height: 100px;
+}
+
+.body-container{
+    display: flex;
+    flex-direction: column;
+    width: 850px;
+    justify-content: center;
+    position: absolute;
+    margin-top: 100px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.top-content-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.first-content-left{
+    width: 50%;
+}
+
+.first-content-left h1{
+    font-size: 2.8rem;
+    font-weight: bold;
+    color: hsl(300, 43%, 22%);
+}
+
+.first-content-left p{
+    margin-top: 20px;
+    color: hsl(303, 10%, 53%);
+    font-size: 0.9rem;
+}
+
+.long-card-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+
+/* Card One Starts Here */
+.long-card-one{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: space-between; */
+    padding: 10px 20px;
+    border-radius: 8px;
+    background: hsl(300, 24%, 96%);
+}
+
+.long-card-one img{
+    width: 5%;
+    margin-left: 5px;
+}
+
+.long-card-one p{
+    margin-left: 25px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: hsl(300, 43%, 22%);
+}
+/* Card One Starts Here */
+
+
+/* Card Two Starts Here */
+.long-card-two{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: space-between; */
+    margin-top: 15px;
+    margin-left: 50px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    background: hsl(300, 24%, 96%);
+}
+
+.long-card-two img{
+    width: 5%;
+    margin-left: 5px;
+}
+
+.long-card-two p{
+    margin-left: 25px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: hsl(300, 43%, 22%);
+}
+/* Card Two Starts Here */
+
+
+/* Card Three Starts Here */
+.long-card-three{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: space-between; */
+    margin-top: 15px;
+    margin-left: 95px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    background: hsl(300, 24%, 96%);
+}
+
+.long-card-three img{
+    width: 5%;
+    margin-left: 5px;
+}
+
+.long-card-three p{
+    margin-left: 25px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: hsl(300, 43%, 22%);
+}
+/* Card Three Starts Here */
+
+.bottom-content-container{
+    margin-top: 50px;
+}
+
+.card-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.card-one{
+    padding: 20px 20px;
+    border-radius: 8px;
+    background: hsl(300, 43%, 22%);
+    color: hsl(0, 0%, 100%);
+    margin: 1%;
+    margin-top: 10px;
+    height: auto;
+
+}
+
+.card-two{
+    padding: 20px 20px;
+    border-radius: 8px;
+    background: hsl(300, 43%, 22%);
+    color: hsl(0, 0%, 100%);
+    margin: 1%;
+    margin-top: 20px;
+}
+
+.card-three{
+    padding: 20px 20px;
+    border-radius: 8px;
+    background: hsl(300, 43%, 22%);
+    color: hsl(0, 0%, 100%);
+    margin: 1%;
+    margin-top: 30px;
+
+}
+
+.card-title-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.card-title-container img{
+    width: 18%;
+    border-radius: 50px;
+}
+
+.card-title{
+    margin-left: 15px;
+}
+
+.card-title h4{
+    font-size: 0.9rem;
+}
+
+.card-title span{
+    font-size: 0.8rem;
+}
+
+.card-content{
+    margin-top: 20px;
+}
+
+.card-content p{
+    font-size: 0.9rem;
+}
+
+
+
+/* card title and card paragraph */
+/* color:hsl(300, 24%, 96%); */
+/* card title and card paragraph */
